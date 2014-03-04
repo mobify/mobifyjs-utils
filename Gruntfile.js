@@ -129,6 +129,8 @@ module.exports = function(grunt) {
 
     grunt.loadNpmTasks('grunt-express');
     grunt.loadNpmTasks('grunt-contrib-qunit');
+    grunt.loadNpmTasks('grunt-saucelabs');
 
+    grunt.registerTask('saucelabs', ['test', 'saucelabs-qunit']);
     grunt.registerTask('test', ['express', 'qunit']);
 };

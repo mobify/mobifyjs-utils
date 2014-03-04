@@ -1,6 +1,6 @@
 {
-    "name": "jazzcat-client",
-    "version": "2.0.6",
+    "name": "mobifyjs-utils",
+    "version": "1.0.0",
     "main": "utils.js",
     "devDependencies": {
         "requirejs": "2.1.10",
