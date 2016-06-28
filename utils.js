@@ -230,7 +230,7 @@ Utils.matchMedia = function(doc) {
 // for the IE10 fix
 Utils.domIsReady = function(doc) {
     var doc = doc || document;
-    return doc.attachEvent ? doc.readyState === "complete" : doc.readyState !== "loading";
+    return doc.readyState === "complete";
 };
 
 Utils.getPhysicalScreenSize = function(devicePixelRatio) {
